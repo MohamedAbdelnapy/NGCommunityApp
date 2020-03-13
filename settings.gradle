@@ -1,0 +1,2 @@
+rootProject.name='NG Community App'
+include ':app'
