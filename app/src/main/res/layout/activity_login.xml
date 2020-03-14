@@ -59,7 +59,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Password"
+            android:hint="@string/password"
             android:drawableStart="@drawable/ic_lock_outline"
             android:drawablePadding="10dp"
             android:padding="15dp"
@@ -71,7 +71,7 @@
         android:id="@+id/forgot_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forgot Username ?"
+        android:text="@string/forgot_username"
         app:layout_constraintTop_toBottomOf="@id/pass_login"
         app:layout_constraintStart_toStartOf="@id/pass_login"
         android:layout_marginStart="5dp"
@@ -82,7 +82,7 @@
         android:id="@+id/forgot_pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forgot Password ?"
+        android:text="@string/forgot_password"
         app:layout_constraintTop_toBottomOf="@id/pass_login"
         app:layout_constraintEnd_toEndOf="@id/pass_login"
         android:layout_marginTop="17dp"
@@ -96,22 +96,21 @@
         android:orientation="vertical">
 
         <Button
-            android:onClick="Gologin"
             android:id="@+id/login_btn"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:background="@color/colorPrimary"
-            android:text="Login"
+            android:text="@string/login"
             android:textColor="@color/colorWhite"
             android:textAllCaps="false"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Or"
+            android:text="@string/or"
             android:textSize="19sp"
             android:textColor="@color/colorPrimary"
             android:layout_gravity="center"
@@ -124,7 +123,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:background="@color/colorPrimary"
-            android:text="Create Account"
+            android:text="@string/create_account"
             android:textColor="@color/colorWhite"
             android:textAllCaps="false"
             android:textSize="17sp"
@@ -137,7 +136,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             android:background="@color/colorPrimary"
-            android:text="Use Authentication Code"
+            android:text="@string/use_authentication_code"
             android:textColor="@color/colorWhite"
             android:textAllCaps="false"
             android:textSize="17sp"

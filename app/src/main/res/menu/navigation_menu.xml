@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_neighbors"
+        android:checkable="true"
+        android:icon="@drawable/ic_people_outline"
+        android:title="Neighbors" />
+
+    <item
+        android:id="@+id/nav_community_info"
+        android:icon="@drawable/ic_info_outline"
+        android:title="Community Info" />
+
+    <item
+        android:id="@+id/nav_invite_toLive"
+        android:icon="@drawable/ic_person_add"
+        android:title="Invite to Live" />
+
+    <item
+        android:id="@+id/nav_manage_gate_pass"
+        android:icon="@drawable/ic_check"
+        android:title="Manage Gate Passes" />
+
+    <item
+        android:id="@+id/nav_report_issue"
+        android:icon="@drawable/ic_report"
+        android:title="Report an issue" />
+
+    <item
+        android:id="@+id/nav_identify_badge"
+        android:icon="@drawable/ic_assignment"
+        android:title="Identify Badge" />
+
+    <item
+        android:id="@+id/nav_support"
+        android:icon="@drawable/ic_info_outline"
+        android:title="Support" />
+
+</menu>

@@ -2,26 +2,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/nav_timeline"
+        android:id="@+id/b_nav_timeline"
         android:title="Timeline"
         android:icon="@drawable/ic_home_black"/>
 
     <item
-        android:id="@+id/nav_services"
+        android:id="@+id/b_nav_services"
         android:title="Services"
         android:icon="@drawable/ic_access_time_black"/>
 
     <item
-        android:id="@+id/nav_shop"
+        android:id="@+id/b_nav_shop"
         android:title="Shop"
         android:icon="@drawable/ic_shopping_cart_black"/>
 
     <item
-        android:id="@+id/nav_discover"
+        android:id="@+id/b_nav_discover"
         android:title="Discover"
         android:icon="@drawable/ic_location_on_black"/>
     <item
-        android:id="@+id/nav_notification"
+        android:id="@+id/b_nav_notification"
         android:title="Notification"
         android:icon="@drawable/ic_notifications_none_black"/>
 

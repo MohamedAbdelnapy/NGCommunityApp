@@ -40,7 +40,7 @@ dependencies {
     //Rounded Image View
     implementation 'com.makeramen:roundedimageview:2.3.0'
 
-   //navigation 
+    //navigation 
     implementation 'androidx.navigation:navigation-fragment:2.2.1'
     implementation 'androidx.navigation:navigation-ui:2.2.1'
 
